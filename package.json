@@ -1,9 +1,12 @@
 {
+	"homepage": "http://beluas.github.io/infinite-scroll-component",
 	"name": "infinite-scroll-images",
 	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
 	"scripts": {
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build",
 		"start": "node server",
 		"server": "nodemon server",
 		"client": "npm start --prefix client",
